@@ -1,0 +1,56 @@
+Index(['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
+       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
+       'pH', 'sulphates', 'alcohol', 'Id', 'quality'],
+      dtype='object')
+(1143, 11) (1143,)
+(1143, 11) (1143,)
+(914, 11) (914, 1) (114, 11) (114, 1)
+(914, 11) (114, 11) (115, 11)
+Index(['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
+       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
+       'pH', 'sulphates', 'alcohol', 'Id', 'quality'],
+      dtype='object')
+(1143, 11) (1143,)
+(1143, 11) (1143,)
+(914, 11) (914, 1) (114, 11) (114, 1)
+(914, 11) (114, 11) (115, 11)
+Index(['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
+       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
+       'pH', 'sulphates', 'alcohol', 'Id', 'quality'],
+      dtype='object')
+(1143, 11) (1143,)
+(1143, 11) (1143,)
+(914, 11) (914, 1) (114, 11) (114, 1)
+(914, 11) (114, 11) (115, 11)
+Index(['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
+       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
+       'pH', 'sulphates', 'alcohol', 'Id', 'quality'],
+      dtype='object')
+(1143, 11) (1143,)
+(1143, 11) (1143,)
+(914, 11) (114, 11) (115, 11)
+Index(['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
+       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
+       'pH', 'sulphates', 'alcohol', 'Id', 'quality'],
+      dtype='object')
+(1143, 11) (1143,)
+(1143, 11) (1143,)
+X: (1143, 11), y: (1143, 1)
+(914, 11) (114, 11) (115, 11)
+Index(['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
+       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
+       'pH', 'sulphates', 'alcohol', 'Id', 'quality'],
+      dtype='object')
+(1143, 11) (1143,)
+(1143, 11) (1143,)
+X: (1143, 11), y: (1143, 1)
+(914, 11) (114, 11) (115, 11)
+Converged after 174 epochs
+Index(['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
+       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
+       'pH', 'sulphates', 'alcohol', 'Id', 'quality'],
+      dtype='object')
+(1143, 11) (1143,)
+(1143, 11) (1143,)
+X: (1143, 11), y: (1143, 1)
+(914, 11) (114, 11) (115, 11)

@@ -1,0 +1,18 @@
+{"time":"2024-10-12T21:46:09.0458837+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-12T21:46:09.0458837+05:30","level":"INFO","msg":"created symlink","path":"c:\\Users\\Pratyush Jena\\Desktop\\sem5\\SMAI\\Assigments\\smai-m24-assignments-ProtonPratt\\models\\MLP\\wandb\\run-20241012_214602-tu16qp5b\\logs\\debug-core.log"}
+{"time":"2024-10-12T21:46:09.0513353+05:30","level":"INFO","msg":"created new stream","id":"tu16qp5b"}
+{"time":"2024-10-12T21:46:09.0513353+05:30","level":"INFO","msg":"stream: started","id":"tu16qp5b"}
+{"time":"2024-10-12T21:46:09.0513353+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"tu16qp5b"}}
+{"time":"2024-10-12T21:46:09.0513353+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"tu16qp5b"}}
+{"time":"2024-10-12T21:46:09.0513353+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"tu16qp5b"}}
+{"time":"2024-10-12T21:46:09.5209462+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-12T21:46:09.5216661+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-12T21:48:01.9116053+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-12T21:48:01.9179138+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-12T21:48:06.4948472+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-12T21:48:06.9152784+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}
+{"time":"2024-10-12T21:48:07.868921+05:30","level":"INFO","msg":"stream: closing","id":"tu16qp5b"}
+{"time":"2024-10-12T21:48:07.868921+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"tu16qp5b"}}
+{"time":"2024-10-12T21:48:07.868921+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"tu16qp5b"}}
+{"time":"2024-10-12T21:48:07.868921+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"tu16qp5b"}}
+{"time":"2024-10-12T21:48:07.868921+05:30","level":"INFO","msg":"stream: closed","id":"tu16qp5b"}

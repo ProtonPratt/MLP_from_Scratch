@@ -1,0 +1,59 @@
+_wandb:
+    value:
+        cli_version: 0.18.3
+        m: []
+        python_version: 3.11.0
+        t:
+            "1":
+                - 53
+                - 55
+                - 105
+            "2":
+                - 53
+                - 55
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.11.0
+            "5": 0.18.3
+            "8":
+                - 1
+                - 3
+                - 5
+            "12": 0.18.3
+            "13": windows-amd64
+Random_state:
+    value: null
+activation:
+    value: sigmoid
+batch_size:
+    value: 32
+beta:
+    value: 0.9
+early_stopping:
+    value: false
+epochs:
+    value: 100
+hidden_layer_sizes:
+    value:
+        - 32
+        - 12
+        - 6
+        - 12
+        - 32
+input_size:
+    value: 15
+learning_rate:
+    value: 0.4
+loss_function:
+    value: mse
+optimizer:
+    value: mini_batch
+output_size:
+    value: 15
+weight_init:
+    value: he

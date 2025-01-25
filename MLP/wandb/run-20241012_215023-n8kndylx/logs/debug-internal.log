@@ -1,0 +1,22 @@
+{"time":"2024-10-12T21:50:27.0117996+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-12T21:50:27.0117996+05:30","level":"INFO","msg":"created symlink","path":"c:\\Users\\Pratyush Jena\\Desktop\\sem5\\SMAI\\Assigments\\smai-m24-assignments-ProtonPratt\\models\\MLP\\wandb\\run-20241012_215023-n8kndylx\\logs\\debug-core.log"}
+{"time":"2024-10-12T21:50:27.0204585+05:30","level":"INFO","msg":"created new stream","id":"n8kndylx"}
+{"time":"2024-10-12T21:50:27.0204585+05:30","level":"INFO","msg":"stream: started","id":"n8kndylx"}
+{"time":"2024-10-12T21:50:27.0204585+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"n8kndylx"}}
+{"time":"2024-10-12T21:50:27.0204585+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"n8kndylx"}}
+{"time":"2024-10-12T21:50:27.0204585+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"n8kndylx"}}
+{"time":"2024-10-12T21:50:27.5097499+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-12T21:50:27.5102526+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-12T21:50:28.5913597+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-12T21:58:05.2570994+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-12T21:58:05.3126528+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-12T21:58:07.3064597+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-12T21:58:07.7415105+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-12T21:58:07.7532059+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-12T21:58:10.7920875+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-12T21:58:12.1621547+05:30","level":"INFO","msg":"stream: closing","id":"n8kndylx"}
+{"time":"2024-10-12T21:58:12.1621547+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"n8kndylx"}}
+{"time":"2024-10-12T21:58:12.1621547+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"n8kndylx"}}
+{"time":"2024-10-12T21:58:12.1630821+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"n8kndylx"}}
+{"time":"2024-10-12T21:58:12.1630821+05:30","level":"INFO","msg":"stream: closed","id":"n8kndylx"}
+{"time":"2024-10-12T21:58:12.7508335+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

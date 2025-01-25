@@ -1,0 +1,14 @@
+K-Nearest Neighbors Classifier
+k: 1024
+Distance Metric: manhattan
+
+Accuracy: 0.2152
+Macro Precision: 0.2096
+Micro Precision: 0.2152
+Macro Recall: 0.2134
+Macro F1 Score: 0.1767
+Micro F1 Score: 0.2152
+Specificity: 0.9931
+
+Accuracy: 0.2152
+Time: 26.2816 seconds

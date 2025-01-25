@@ -1,0 +1,18 @@
+{"time":"2024-10-12T23:18:07.1569841+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-12T23:18:07.1570657+05:30","level":"INFO","msg":"created symlink","path":"c:\\Users\\Pratyush Jena\\Desktop\\sem5\\SMAI\\Assigments\\smai-m24-assignments-ProtonPratt\\models\\MLP\\wandb\\run-20241012_231801-zuv1c2h1\\logs\\debug-core.log"}
+{"time":"2024-10-12T23:18:07.1688788+05:30","level":"INFO","msg":"created new stream","id":"zuv1c2h1"}
+{"time":"2024-10-12T23:18:07.1688788+05:30","level":"INFO","msg":"stream: started","id":"zuv1c2h1"}
+{"time":"2024-10-12T23:18:07.1693879+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"zuv1c2h1"}}
+{"time":"2024-10-12T23:18:07.1693879+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"zuv1c2h1"}}
+{"time":"2024-10-12T23:18:07.1693879+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"zuv1c2h1"}}
+{"time":"2024-10-12T23:18:07.7445842+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-12T23:18:07.7456775+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-12T23:19:33.6575279+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-12T23:19:33.6627152+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-12T23:19:35.2616901+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-12T23:19:36.6187293+05:30","level":"INFO","msg":"stream: closing","id":"zuv1c2h1"}
+{"time":"2024-10-12T23:19:36.6187293+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"zuv1c2h1"}}
+{"time":"2024-10-12T23:19:36.6187293+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"zuv1c2h1"}}
+{"time":"2024-10-12T23:19:36.6187293+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"zuv1c2h1"}}
+{"time":"2024-10-12T23:19:36.6187293+05:30","level":"INFO","msg":"stream: closed","id":"zuv1c2h1"}
+{"time":"2024-10-12T23:19:38.661129+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

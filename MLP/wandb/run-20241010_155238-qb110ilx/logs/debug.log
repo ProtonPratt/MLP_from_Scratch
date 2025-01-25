@@ -1,0 +1,61 @@
+2024-10-10 15:52:38,516 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-10 15:52:38,516 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Configure stats pid to 3168
+2024-10-10 15:52:38,516 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Pratyush Jena\.config\wandb\settings
+2024-10-10 15:52:38,516 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Loading settings from c:\Users\Pratyush Jena\Desktop\sem5\SMAI\Assigments\smai-m24-assignments-ProtonPratt\models\MLP\wandb\settings
+2024-10-10 15:52:38,516 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-10 15:52:38,516 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-10 15:52:38,517 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-10 15:52:38,517 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-10 15:52:38,517 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-10 15:52:38,517 INFO    MainThread:3168 [wandb_init.py:_log_setup():532] Logging user logs to c:\Users\Pratyush Jena\Desktop\sem5\SMAI\Assigments\smai-m24-assignments-ProtonPratt\models\MLP\wandb\run-20241010_155238-qb110ilx\logs\debug.log
+2024-10-10 15:52:38,517 INFO    MainThread:3168 [wandb_init.py:_log_setup():533] Logging internal logs to c:\Users\Pratyush Jena\Desktop\sem5\SMAI\Assigments\smai-m24-assignments-ProtonPratt\models\MLP\wandb\run-20241010_155238-qb110ilx\logs\debug-internal.log
+2024-10-10 15:52:38,517 INFO    MainThread:3168 [wandb_init.py:init():617] calling init triggers
+2024-10-10 15:52:38,517 INFO    MainThread:3168 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.1, 'epochs': 1000, 'batch_size': 16, 'activation': 'relu', 'optimizer': 'full_batch', 'hidden_layer_sizes': [3, 3], 'loss_function': 'mse', 'weight_init': 'he', 'Random_state': 4, 'beta': 0.0}
+2024-10-10 15:52:38,517 INFO    MainThread:3168 [wandb_init.py:init():642] re-initializing run, found existing run on stack: o65lblir
+2024-10-10 15:52:38,519 INFO    MainThread:3168 [wandb_run.py:_finish():2164] finishing run proton_prat/SMAI_A3-MLP/o65lblir
+2024-10-10 15:52:38,521 INFO    MainThread:3168 [jupyter.py:save_history():459] not saving jupyter history
+2024-10-10 15:52:38,521 INFO    MainThread:3168 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-10 15:52:38,521 INFO    MainThread:3168 [wandb_init.py:_jupyter_teardown():460] cleaning up jupyter logic
+2024-10-10 15:52:38,521 INFO    MainThread:3168 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-10 15:52:38,521 INFO    MainThread:3168 [wandb_run.py:_restore():2410] restore
+2024-10-10 15:52:38,522 INFO    MainThread:3168 [wandb_run.py:_restore():2416] restore done
+2024-10-10 15:52:44,555 INFO    MainThread:3168 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-10 15:52:44,556 INFO    MainThread:3168 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-10 15:52:44,566 INFO    MainThread:3168 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-10 15:52:44,862 INFO    MainThread:3168 [wandb_init.py:init():667] starting backend
+2024-10-10 15:52:44,863 INFO    MainThread:3168 [wandb_init.py:init():671] sending inform_init request
+2024-10-10 15:52:44,866 INFO    MainThread:3168 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-10 15:52:44,867 INFO    MainThread:3168 [wandb_init.py:init():684] backend started and connected
+2024-10-10 15:52:44,879 INFO    MainThread:3168 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-10 15:52:44,889 INFO    MainThread:3168 [wandb_init.py:init():779] updated telemetry
+2024-10-10 15:52:44,921 INFO    MainThread:3168 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-10 15:52:45,383 INFO    MainThread:3168 [wandb_init.py:init():863] starting run threads in backend
+2024-10-10 15:52:45,773 INFO    MainThread:3168 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-10 15:52:45,773 INFO    MainThread:3168 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-10 15:52:45,773 INFO    MainThread:3168 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-10 15:52:45,773 INFO    MainThread:3168 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-10 15:52:45,775 INFO    MainThread:3168 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-10 15:57:23,580 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-10 15:57:23,580 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Configure stats pid to 3168
+2024-10-10 15:57:23,581 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Pratyush Jena\.config\wandb\settings
+2024-10-10 15:57:23,581 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Loading settings from c:\Users\Pratyush Jena\Desktop\sem5\SMAI\Assigments\smai-m24-assignments-ProtonPratt\models\MLP\wandb\settings
+2024-10-10 15:57:23,581 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-10 15:57:23,581 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-10 15:57:23,581 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-10 15:57:23,581 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-10 15:57:23,581 INFO    MainThread:3168 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-10 15:57:23,582 INFO    MainThread:3168 [wandb_init.py:_log_setup():532] Logging user logs to c:\Users\Pratyush Jena\Desktop\sem5\SMAI\Assigments\smai-m24-assignments-ProtonPratt\models\MLP\wandb\run-20241010_155723-qhnk0ypr\logs\debug.log
+2024-10-10 15:57:23,582 INFO    MainThread:3168 [wandb_init.py:_log_setup():533] Logging internal logs to c:\Users\Pratyush Jena\Desktop\sem5\SMAI\Assigments\smai-m24-assignments-ProtonPratt\models\MLP\wandb\run-20241010_155723-qhnk0ypr\logs\debug-internal.log
+2024-10-10 15:57:23,582 INFO    MainThread:3168 [wandb_init.py:_jupyter_setup():478] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000297F36A23D0>
+2024-10-10 15:57:23,583 INFO    MainThread:3168 [wandb_init.py:init():617] calling init triggers
+2024-10-10 15:57:23,583 INFO    MainThread:3168 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.1, 'epochs': 1000, 'batch_size': 16, 'activation': 'tanh', 'optimizer': 'mini_batch', 'input_size': 2, 'hidden_layer_sizes': [3, 3], 'output_size': 1, 'loss_function': 'mse', 'weight_init': 'he', 'Random_state': 4, 'beta': 0.0, 'early_stopping': True}
+2024-10-10 15:57:23,584 INFO    MainThread:3168 [wandb_init.py:init():642] re-initializing run, found existing run on stack: qb110ilx
+2024-10-10 15:57:23,585 INFO    MainThread:3168 [wandb_run.py:_finish():2164] finishing run proton_prat/SMAI_A3-MLP/qb110ilx
+2024-10-10 15:57:23,587 INFO    MainThread:3168 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-10 15:57:23,587 INFO    MainThread:3168 [wandb_run.py:_restore():2410] restore
+2024-10-10 15:57:23,587 INFO    MainThread:3168 [wandb_run.py:_restore():2416] restore done
+2024-10-10 15:57:27,359 INFO    MainThread:3168 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-10 15:57:27,360 INFO    MainThread:3168 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-10 15:57:27,370 INFO    MainThread:3168 [wandb_run.py:_footer_sync_info():4008] logging synced files

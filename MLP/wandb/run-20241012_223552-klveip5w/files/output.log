@@ -1,0 +1,231 @@
+[  0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17
+  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35
+  36  37  38  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54
+  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72
+  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90
+  91  92  93  94  95  96  97  98  99 100 101 102 103 104 105 106 107 108
+ 109 110 111 112 113]
+[  0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17
+  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35
+  36  37  38  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54
+  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72
+  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90
+  91  92  93  94  95  96  97  98  99 100 101 102 103 104 105 106 107 108
+ 109 110 111 112 113]
+Epoch: 1
+Epoch: 2
+Epoch: 3
+Epoch: 4
+Epoch: 5
+Epoch: 6
+Epoch: 7
+Epoch: 8
+Epoch: 9
+Epoch: 10
+Epoch: 11
+Epoch: 12
+Epoch: 13
+Epoch: 14
+Epoch: 15
+Epoch: 16
+Epoch: 17
+Epoch: 18
+Epoch: 19
+Epoch: 20
+Epoch: 21
+Epoch: 22
+Epoch: 23
+Epoch: 24
+Epoch: 25
+Epoch: 26
+Epoch: 27
+Epoch: 28
+Epoch: 29
+Epoch: 30
+Epoch: 31
+Epoch: 32
+Epoch: 33
+Epoch: 34
+Epoch: 35
+Epoch: 36
+Epoch: 37
+Epoch: 38
+Epoch: 39
+Epoch: 40
+Epoch: 41
+Epoch: 42
+Epoch: 43
+Epoch: 44
+Epoch: 45
+Epoch: 46
+Epoch: 47
+Epoch: 48
+Epoch: 49
+Epoch: 50
+Epoch: 51
+Epoch: 52
+Epoch: 53
+Epoch: 54
+Epoch: 55
+Epoch: 56
+Epoch: 57
+Epoch: 58
+Epoch: 59
+Epoch: 60
+Epoch: 61
+Epoch: 62
+Epoch: 63
+Epoch: 64
+Epoch: 65
+Epoch: 66
+Epoch: 67
+Epoch: 68
+Epoch: 69
+Epoch: 70
+Epoch: 71
+Epoch: 72
+Epoch: 73
+Epoch: 74
+Epoch: 75
+Epoch: 76
+Epoch: 77
+Epoch: 78
+Epoch: 79
+Epoch: 80
+Epoch: 81
+Epoch: 82
+Epoch: 83
+Epoch: 84
+Epoch: 85
+Epoch: 86
+Epoch: 87
+Epoch: 88
+Epoch: 89
+Epoch: 90
+Epoch: 91
+Epoch: 92
+Epoch: 93
+Epoch: 94
+Epoch: 95
+Epoch: 96
+Epoch: 97
+Epoch: 98
+Epoch: 99
+Epoch: 100
+(11400,) (11400, 113)
+(11400,)
+Accuracy: 0.0089
+Macro Precision: 0.0001
+micro Precision: 0.0089
+Macro Recall: 0.0088
+Micro Recall: 0.0089
+Macro F1 Score: 0.0002
+Micro F1 Score: 0.0089
+Specificity: 0.9912
+[  0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17
+  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35
+  36  37  38  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54
+  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72
+  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90
+  91  92  93  94  95  96  97  98  99 100 101 102 103 104 105 106 107 108
+ 109 110 111 112 113]
+Epoch: 1
+Epoch: 2
+Epoch: 3
+Epoch: 4
+Epoch: 5
+Epoch: 6
+Epoch: 7
+Epoch: 8
+Epoch: 9
+Epoch: 10
+Epoch: 11
+Epoch: 12
+Epoch: 13
+Epoch: 14
+Epoch: 15
+Epoch: 16
+Epoch: 17
+Epoch: 18
+Epoch: 19
+Epoch: 20
+Epoch: 21
+Epoch: 22
+Epoch: 23
+Epoch: 24
+Epoch: 25
+Epoch: 26
+Epoch: 27
+Epoch: 28
+Epoch: 29
+Epoch: 30
+Epoch: 31
+Epoch: 32
+Epoch: 33
+Epoch: 34
+Epoch: 35
+Epoch: 36
+Epoch: 37
+Epoch: 38
+Epoch: 39
+Epoch: 40
+Epoch: 41
+Epoch: 42
+Epoch: 43
+Epoch: 44
+Epoch: 45
+Epoch: 46
+Epoch: 47
+Epoch: 48
+Epoch: 49
+Epoch: 50
+Epoch: 51
+Epoch: 52
+Epoch: 53
+Epoch: 54
+Epoch: 55
+Epoch: 56
+Epoch: 57
+Epoch: 58
+Epoch: 59
+Epoch: 60
+Epoch: 61
+Epoch: 62
+Epoch: 63
+Epoch: 64
+Epoch: 65
+Epoch: 66
+Epoch: 67
+Epoch: 68
+Epoch: 69
+Epoch: 70
+Epoch: 71
+Epoch: 72
+Epoch: 73
+Epoch: 74
+Epoch: 75
+Epoch: 76
+Epoch: 77
+Epoch: 78
+Epoch: 79
+Epoch: 80
+Epoch: 81
+Epoch: 82
+Epoch: 83
+Epoch: 84
+Epoch: 85
+Epoch: 86
+Epoch: 87
+Epoch: 88
+Epoch: 89
+Epoch: 90
+Epoch: 91
+Epoch: 92
+Epoch: 93
+Epoch: 94
+Epoch: 95
+Epoch: 96
+Epoch: 97
+Epoch: 98
+Epoch: 99
+Epoch: 100

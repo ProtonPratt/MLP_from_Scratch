@@ -1,0 +1,14 @@
+K-Nearest Neighbors Classifier
+k: 2
+Distance Metric: cosine
+
+Accuracy: 0.1932
+Macro Precision: 0.2155
+Micro Precision: 0.1932
+Macro Recall: 0.1953
+Macro F1 Score: 0.1896
+Micro F1 Score: 0.1932
+Specificity: 0.9929
+
+Accuracy: 0.1932
+Time: 14.8863 seconds

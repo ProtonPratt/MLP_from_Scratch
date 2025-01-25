@@ -1,6 +1,119 @@
 # Assignment 3 Report
 ### by `Pratyush Jena`
 
+## Summary
+
+### 1. Model Architecture & Features
+- Implemented a flexible Multi-Layer Perceptron (MLP) from scratch supporting:
+  - Multiple hidden layers with customizable sizes
+  - Various activation functions (ReLU, Sigmoid, Tanh, Linear)
+  - Different loss functions (MSE, Cross-Entropy)
+  - Multiple optimization methods (SGD, Mini-batch, Full-batch)
+  - Weight initialization schemes (Random, He, Xavier/Glorot)
+  - Early stopping for regularization
+
+### 2. Implementation Details
+- Core Components:
+  ```python
+  class MLP:
+      def __init__(self, input_size, hidden_layers, output_size, ...):
+          self.weights = []  # List of weight matrices
+          self.biases = []   # List of bias vectors
+          self._initialize_weights()  # He/Xavier/Random init
+          
+      def forward(self, X):
+          # Layer-wise forward propagation
+          activations = []
+          for W, b in zip(self.weights, self.biases):
+              X = self._activation(np.dot(X, W) + b)
+              activations.append(X)
+          return activations
+          
+      def backward(self, error, activations):
+          # Backpropagation through layers
+          gradients = []
+          for layer in reversed(range(len(self.weights))):
+              error = self._compute_gradient(error, activations[layer])
+              gradients.insert(0, error)
+          return gradients
+  ```
+
+- Key Methods:
+  - `fit()`: Training loop with batch processing
+  - `predict()`: Forward pass for inference
+  - `evaluate()`: Loss computation
+  - `_update_weights()`: Gradient descent step
+
+### 3. Multi-Class Classification Results
+- Best performing model configuration:
+  - Activation: Tanh
+  - Batch size: 16
+  - Learning rate: 1.0
+  - Hidden layers: [32,32]
+- Test metrics:
+  - Accuracy: 58.77%
+  - F1-Score: 0.311
+  - Precision: 0.291
+  - Recall: 0.335
+
+### 4. Multi-Label Classification Analysis
+- Implementation:
+  ```python
+  def multi_label_metrics(y_true, y_pred):
+      # Per-label metrics
+      precision = true_positives / (true_positives + false_positives)
+      recall = true_positives / (true_positives + false_negatives)
+      f1 = 2 * (precision * recall) / (precision + recall)
+      return precision, recall, f1
+  ```
+- Performance:
+  - Micro-averaged Precision: 0.20
+  - Micro-averaged Recall: 0.71
+  - Micro-averaged F1: 0.31
+
+### 5. AutoEncoder Implementation
+- Architecture:
+  ```python
+  # Symmetric encoder-decoder structure
+  layers = [input_size] + hidden_layers + [latent_dim] + \
+          hidden_layers[::-1] + [input_size]
+  ```
+- Results:
+  - 99.99% reconstruction accuracy
+  - Latent space: 15 → 6 dimensions
+  - KNN accuracy: 24.93% → 12.54% (compressed)
+
+### 6. Key Findings & Improvements
+- Activation function choice significantly impacts model performance
+- Batch size affects both training stability and convergence speed
+- Learning rate tuning crucial for optimal performance
+- Future work:
+  - Add more sophisticated regularization
+  - Enhance autoencoder architecture
+  - Implement cross-validation
+
+### 7. Regression Task Performance
+- Best configuration:
+  - ReLU activation
+  - Batch size: 16
+  - Learning rate: 0.1
+  - Hidden layers: [16,16]
+- Test metrics:
+  - R-squared: 0.927
+  - RMSE: 0.071
+  - MAE: 0.056
+
+### 8. Loss Function Analysis (MSE vs BCE)
+- Compared behavior of MSE and Binary Cross-Entropy:
+  - MSE showed more stable convergence
+  - BCE operated on larger scale with faster initial convergence
+  - Both avoided overfitting with validation loss remaining below training loss
+
+### 9. Tools & Integration
+- Integrated with Weights & Biases for experiment tracking
+- Comprehensive logging of metrics and hyperparameters
+- Visualization support for training progress and results
+
 ## Dataset Analysis and Preprocessing
 
 ### First few rows
@@ -321,6 +434,10 @@ Based on the graph showing **loss vs. epoch** for various activation functions (
    - This batch size shows the slowest decrease in loss, with a significantly higher final loss compared to other batch sizes.
    - The model struggles to converge, with the loss plateauing early and staying higher than the others.
 
+4. **Batch Size 16** (Blue line):
+   - This batch size has a smooth loss curve with fewer oscillations than batch size 8.
+   - It converges steadily, showing a balance between stability and speed of convergence. It reaches the lowest loss among the batch sizes by the end of 100 epochs.
+
 ### General Observations:
 - **Smaller batch sizes (8 and 16)** tend to converge faster, but they introduce more noise, especially in batch size 8. This noise can sometimes help escape local minima but can also lead to instability.
 - **Larger batch sizes (32 and 64)** provide more stable convergence, but they tend to converge slower, and in this case, batch size 64 performs poorly, potentially due to the model getting stuck in a higher loss region.
@@ -398,7 +515,7 @@ fp fn
 
 ```
 
-Based on the provided **confusion matrices** for each class, let’s analyze how well the model performed per category by examining True Positives (TP), False Positives (FP), False Negatives (FN), and True Negatives (TN). This will help us understand where the model excelled or struggled.
+Based on the provided **confusion matrices** for each class, let's analyze how well the model performed per category by examining True Positives (TP), False Positives (FP), False Negatives (FN), and True Negatives (TN). This will help us understand where the model excelled or struggled.
 
 ---
 
@@ -837,7 +954,7 @@ Time: 31.666756629943848
 
 2. KNN's Sensitivity to Feature Space:
 
-    - KNN relies heavily on the distance between points, which can become distorted after dimensionality reduction. If the reduced space isn’t representative of the original structure, KNN will perform poorly.
+    - KNN relies heavily on the distance between points, which can become distorted after dimensionality reduction. If the reduced space isn't representative of the original structure, KNN will perform poorly.
 3. Autoencoder Bottleneck Issue:
 
     - The bottleneck layer of the autoencoder might not have been expressive enough to capture the complex structure of the dataset.

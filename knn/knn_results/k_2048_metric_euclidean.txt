@@ -1,0 +1,14 @@
+K-Nearest Neighbors Classifier
+k: 2048
+Distance Metric: euclidean
+
+Accuracy: 0.1688
+Macro Precision: 0.1587
+Micro Precision: 0.1688
+Macro Recall: 0.1675
+Macro F1 Score: 0.1275
+Micro F1 Score: 0.1688
+Specificity: 0.9926
+
+Accuracy: 0.1688
+Time: 22.5832 seconds

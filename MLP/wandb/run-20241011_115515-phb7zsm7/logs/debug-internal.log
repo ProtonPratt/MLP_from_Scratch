@@ -1,0 +1,34 @@
+{"time":"2024-10-11T11:55:15.1709224+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-11T11:55:15.1709224+05:30","level":"INFO","msg":"created symlink","path":"c:\\Users\\Pratyush Jena\\Desktop\\sem5\\SMAI\\Assigments\\smai-m24-assignments-ProtonPratt\\models\\MLP\\wandb\\run-20241011_115515-phb7zsm7\\logs\\debug-core.log"}
+{"time":"2024-10-11T11:55:15.1769646+05:30","level":"INFO","msg":"created new stream","id":"phb7zsm7"}
+{"time":"2024-10-11T11:55:15.1769646+05:30","level":"INFO","msg":"stream: started","id":"phb7zsm7"}
+{"time":"2024-10-11T11:55:15.1769646+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"phb7zsm7"}}
+{"time":"2024-10-11T11:55:15.1776458+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"phb7zsm7"}}
+{"time":"2024-10-11T11:55:15.1776458+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"phb7zsm7"}}
+{"time":"2024-10-11T11:55:15.9102738+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-11T11:55:15.9107771+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-11T11:55:16.1979674+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T12:04:38.4572445+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T12:04:38.4604428+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T12:04:40.9152703+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T12:04:40.9181969+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T12:04:41.0829819+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T12:04:41.085925+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T12:04:43.4327762+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T12:04:43.4588742+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T12:04:50.3230283+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T12:04:50.3263621+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T12:04:52.2073463+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T12:04:52.2131967+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T12:04:53.786848+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T12:04:53.7925054+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T12:04:56.4634104+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T12:04:56.4888988+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-11T12:04:56.9772203+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-11T12:05:01.9749787+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}
+{"time":"2024-10-11T12:05:02.3860642+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-11T12:05:04.0286569+05:30","level":"INFO","msg":"stream: closing","id":"phb7zsm7"}
+{"time":"2024-10-11T12:05:04.0286569+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"phb7zsm7"}}
+{"time":"2024-10-11T12:05:04.0286569+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"phb7zsm7"}}
+{"time":"2024-10-11T12:05:04.0291867+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"phb7zsm7"}}
+{"time":"2024-10-11T12:05:04.0291867+05:30","level":"INFO","msg":"stream: closed","id":"phb7zsm7"}

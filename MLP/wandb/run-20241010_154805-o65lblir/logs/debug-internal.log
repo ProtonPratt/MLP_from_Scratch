@@ -1,0 +1,30 @@
+{"time":"2024-10-10T15:48:05.0894086+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-10T15:48:05.0894086+05:30","level":"INFO","msg":"created symlink","path":"c:\\Users\\Pratyush Jena\\Desktop\\sem5\\SMAI\\Assigments\\smai-m24-assignments-ProtonPratt\\models\\MLP\\wandb\\run-20241010_154805-o65lblir\\logs\\debug-core.log"}
+{"time":"2024-10-10T15:48:05.2496486+05:30","level":"INFO","msg":"created new stream","id":"o65lblir"}
+{"time":"2024-10-10T15:48:05.2496486+05:30","level":"INFO","msg":"stream: started","id":"o65lblir"}
+{"time":"2024-10-10T15:48:05.2496486+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"o65lblir"}}
+{"time":"2024-10-10T15:48:05.2496486+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"o65lblir"}}
+{"time":"2024-10-10T15:48:05.2496486+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"o65lblir"}}
+{"time":"2024-10-10T15:48:05.8134809+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-10T15:48:05.8147634+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-10T15:48:06.9153473+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T15:51:11.9496303+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T15:51:11.961779+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T15:51:11.9990414+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T15:51:12.0049992+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T15:51:14.9128801+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T15:51:14.9163937+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T15:51:16.391445+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T15:51:16.3959458+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T15:51:17.8248569+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T15:51:17.8303664+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T15:52:38.4933183+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T15:52:38.5232209+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-10T15:52:38.5269276+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-10T15:52:43.1405018+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-10T15:52:43.5254453+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}
+{"time":"2024-10-10T15:52:44.5697796+05:30","level":"INFO","msg":"stream: closing","id":"o65lblir"}
+{"time":"2024-10-10T15:52:44.5697796+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"o65lblir"}}
+{"time":"2024-10-10T15:52:44.5697796+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"o65lblir"}}
+{"time":"2024-10-10T15:52:44.5697796+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"o65lblir"}}
+{"time":"2024-10-10T15:52:44.5697796+05:30","level":"INFO","msg":"stream: closed","id":"o65lblir"}

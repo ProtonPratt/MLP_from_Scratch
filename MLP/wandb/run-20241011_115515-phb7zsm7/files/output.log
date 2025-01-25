@@ -1,0 +1,11 @@
+Index(['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
+       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
+       'pH', 'sulphates', 'alcohol', 'Id', 'quality'],
+      dtype='object')
+(1143, 11) (1143,)
+Index(['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
+       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
+       'pH', 'sulphates', 'alcohol', 'Id', 'quality'],
+      dtype='object')
+(1143, 11) (1143,)
+(914, 11) (115, 11) (114, 11)
